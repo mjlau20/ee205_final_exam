@@ -22,5 +22,4 @@ public:
    double getSide( double sizeOfSide );
 };
 
-
 #endif //EE205_FINAL_EXAM_SQUARE_H

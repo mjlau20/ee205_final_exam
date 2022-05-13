@@ -18,13 +18,12 @@ class Rectangle : public Shape {
 public:
    Rectangle( double newLength, double newWidth );
 
-protected:
 public:
    double getLength() const;
 
    double getWidth() const;
 
-   bool isValid(double sizeOfLength, double sizeOfWidth);
+   bool   isValid(double sizeOfLength, double sizeOfWidth);
 
    double compute_area() override;
 
@@ -32,6 +31,5 @@ protected:
    double length;
    double width;
 };
-
 
 #endif //EE205_FINAL_EXAM_RECTANGLE_H

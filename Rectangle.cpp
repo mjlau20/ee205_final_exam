@@ -14,7 +14,7 @@
 
 Rectangle::Rectangle(double newLength, double newWidth) {
    length = newLength;
-   width = newWidth;
+   width  = newWidth;
 }
 
 double Rectangle::getLength() const {
